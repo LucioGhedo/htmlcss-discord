@@ -18,6 +18,10 @@ a {
     color: black;
 }
 /* COMMON */
+.wave {
+    margin: -5px;
+}
+
 .white {
     color: white;
 }
@@ -38,19 +42,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* TEST */
     background-color: #255ee9;
-    height: 50px;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-
-    /* TEST */
     width: 70%;
-    height: 40px;
 }
 
 .navbar div {
@@ -101,13 +99,10 @@ header {
     align-items: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    /* TEST */
-    height: 500px;
+    height: 600px;
 }
 .content-jumbo {
-    /* TEST */
     width: 50%;
-    height: 450px;
 }
 .content-jumbo p {
     color: white;
@@ -138,16 +133,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    padding-top: 50px;
 }
 
 .content {
     font-size: 20px;
     width: 20%;
-    padding-bottom: 40px;
-}
-.reverse {
-    padding-bottom: 80px;
 }
 
 .flex-container-reverse{
@@ -156,7 +147,6 @@ header {
     flex-direction: row-reverse;
     align-items: center;
     background-color: #f6f6f6;
-    padding: 80px 0;
 }
 
 /* MAIN SECTION */
@@ -169,7 +159,6 @@ header {
 }
 .main-content{
     text-align: center;
-    padding-top: 40px;
     width: 80%;
     height: 90%;
 }
@@ -261,8 +250,7 @@ footer img {
 .content-footer-bottom{
     display: flex;
     justify-content: space-between;
-    /* width: 70%;
-    padding: 10px 0; */
+
 }
 .logo-footer{
     padding: 5px;
