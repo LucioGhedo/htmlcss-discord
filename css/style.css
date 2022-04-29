@@ -10,7 +10,17 @@ h1 {
     padding-top: 120px;
     font-size: 55px;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 /* COMMON */
+.white {
+    color: white;
+}
 h2 {
     padding-bottom: 40px;
     font-size: 40px;
@@ -176,68 +186,91 @@ header {
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .mac-btn {
     background-color: #7388d9;
     color: white;
-    padding: 15px;
+    padding: 8px 3px;
+    padding-right: 15px;
     margin-bottom: 100px;
+    font-size: 20px;
 
 }
 /* FOOTER */
+footer h3 {
+    color: #7388d9;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.ita-flag {
+    width: 25px;
+    padding-top: 5px;
+}
+footer span {
+    color: white;
+}
+footer ul {
+    padding-top: 40px;
+}
+footer ul li {
+    color: white;
+    padding: 10px 0;
+}
+footer i {
+    padding: 0 3px;
+    color: white;
+}
+div i {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.blue-ul {
+    color: #7388d9;
+    font-weight: 900;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
 .footer-top {
-    background-color: grey;
+    background-color: #23272a;
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
     padding-top: 3px;
-    /* TEST */
-    height: 600px;
-    margin-bottom: 2px;
 }
 .pink-footer{
-    /* TEST */
-    background-color: pink;
-    width: calc(80% / 5);
-    height: 580px;
-    border: 1px dotted black;
+    padding: 45px 0;
+    width: calc(95% / 5);
 }
 .blue-footer{
-    /* TEST */
-    background-color: aquamarine;
-    width: calc(40% / 5);
-    height: 580px;
-    border: 1px dotted black;
+    width: calc(55% / 5);
 }
 
+/* FOOTER BOTTOM */
+footer img {
+    width: 100px;
+}
 .footer-bottom{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    /* TEST */
-    background-color: grey;
-    height: 100px;
+    background-color: #23272a;
 }
 .content-footer-bottom{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 70%;
-    /* TEST */
-    height: 70%;
-    background-color: aqua;
+    padding: 10px 0;
 }
 .logo-footer{
-    /* TEST */
-    background-color: pink;
     padding: 5px;
-    border: 1px dotted black;
 }
 .bottone{
-    /* TEST */
-    background-color: pink;
     padding: 5px;
-    border: 1px dotted black;
+}
+.bottone .btn {
+    background-color: #7388d9;
+    color: white;
 }
