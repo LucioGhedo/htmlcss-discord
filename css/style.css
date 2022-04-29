@@ -10,6 +10,14 @@ h1 {
     padding-top: 120px;
     font-size: 55px;
 }
+/* COMMON */
+h2 {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+p {
+    line-height: 25px;
+}
 /* FONT */
 body {
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -123,20 +131,16 @@ header {
     /* TEST */
     height: 700px;
 }
+
 .content {
-    /* TEST */
-    width: 55%;
-    background-color: aqua;
-    height: 80%;
-    border: 1px dotted black;
+    font-size: 20px;
+    width: 20%;
+    padding-bottom: 40px;
 }
-.img {
-    /* TEST */
-    width: 25%;
-    background-color: pink;
-    height: 80%;
-    border: 1px dotted black;
+.reverse {
+    padding-bottom: 80px;
 }
+
 .flex-container-reverse{
     display: flex;
     justify-content: center;
@@ -144,7 +148,7 @@ header {
     align-items: center;
     /* TEST */
     height: 700px;
-    background-color: lightgrey;
+    background-color: #f6f6f6;
 }
 
 /* MAIN SECTION */
