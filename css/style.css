@@ -61,7 +61,7 @@ header {
     padding: 7px 9px;
     background-color: white;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .logo{
@@ -86,7 +86,7 @@ header {
     /* TEST */
     height: 500px;
 }
-.content-jumbo{
+.content-jumbo {
     /* TEST */
     width: 50%;
     height: 450px;
@@ -97,6 +97,22 @@ header {
     line-height: 35px;
     text-align: center;
     font-size: 23px;
+}
+
+/* JUMBO BTN */
+.content-jumbo button {
+    font-size: 20px;
+    padding: 10px;
+}
+.black-btn {
+    color: white;
+    background-color: #23272a;
+    margin-left: 15px;
+}
+.flex-button {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 190px;
 }
 
 /* MAIN */
