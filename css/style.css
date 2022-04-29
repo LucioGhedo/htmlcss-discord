@@ -261,8 +261,8 @@ footer img {
 .content-footer-bottom{
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    padding: 10px 0;
+    /* width: 70%;
+    padding: 10px 0; */
 }
 .logo-footer{
     padding: 5px;
@@ -273,4 +273,9 @@ footer img {
 .bottone .btn {
     background-color: #7388d9;
     color: white;
+}
+.container-footer {
+    width: 70%;
+    padding: 5px 0;
+    
 }
