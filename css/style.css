@@ -1,0 +1,206 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 55px;
+}
+/* FONT */
+body {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* TEST */
+    background-color: #255ee9;
+    height: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    /* TEST */
+    width: 70%;
+    height: 40px;
+}
+
+.navbar div {
+    padding: 15px 0;
+
+}
+/* UL LINK */
+.link{
+    width: 70%;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.link li {
+    padding: 0 20px;
+    padding-top: 5px;
+}
+.link li a {
+    text-decoration: none;
+    color: white;
+}
+/* FINE UL LINK */
+
+.btn {
+    padding: 7px 9px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 20%;
+    padding: 0;
+}
+
+.login{
+    width: 20%;
+    text-align: right;
+}
+
+/* JUMBOTRON */
+.jumbo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    /* TEST */
+    height: 500px;
+}
+.content-jumbo{
+    /* TEST */
+    width: 50%;
+    height: 450px;
+}
+.content-jumbo p {
+    color: white;
+    padding-top: 30px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 23px;
+}
+
+/* MAIN */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    height: 700px;
+}
+.content {
+    /* TEST */
+    width: 55%;
+    background-color: aqua;
+    height: 80%;
+    border: 1px dotted black;
+}
+.img {
+    /* TEST */
+    width: 25%;
+    background-color: pink;
+    height: 80%;
+    border: 1px dotted black;
+}
+.flex-container-reverse{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* TEST */
+    height: 700px;
+    background-color: lightgrey;
+}
+
+/* MAIN SECTION */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    background-color: lightgrey;
+    width: 100%;
+    height: 800px;
+}
+.main-content{
+    /* TEST */
+    background-color: green;
+    width: 80%;
+    height: 90%;
+    border: 1px dotted black;
+}
+
+/* FOOTER */
+.footer-top {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    /* TEST */
+    height: 600px;
+    margin-bottom: 2px;
+}
+.pink-footer{
+    /* TEST */
+    background-color: pink;
+    width: calc(80% / 5);
+    height: 580px;
+    border: 1px dotted black;
+}
+.blue-footer{
+    /* TEST */
+    background-color: aquamarine;
+    width: calc(40% / 5);
+    height: 580px;
+    border: 1px dotted black;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* TEST */
+    background-color: grey;
+    height: 100px;
+}
+.content-footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    /* TEST */
+    height: 70%;
+    background-color: aqua;
+}
+.logo-footer{
+    /* TEST */
+    background-color: pink;
+    padding: 5px;
+    border: 1px dotted black;
+}
+.bottone{
+    /* TEST */
+    background-color: pink;
+    padding: 5px;
+    border: 1px dotted black;
+}
