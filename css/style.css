@@ -21,7 +21,6 @@ a {
 .wave {
     margin: -5px;
 }
-
 .white {
     color: white;
 }
@@ -32,6 +31,7 @@ h2 {
 p {
     line-height: 25px;
 }
+
 /* FONT */
 body {
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -44,17 +44,16 @@ header {
     align-items: center;
     background-color: #255ee9;
 }
-
 .navbar{
     display: flex;
     justify-content: space-between;
     width: 70%;
 }
-
 .navbar div {
     padding: 15px 0;
 
 }
+
 /* UL LINK */
 .link{
     width: 70%;
@@ -79,12 +78,10 @@ header {
     border: none;
     border-radius: 20px;
 }
-
 .logo{
     width: 20%;
     padding: 0;
 }
-
 .login{
     width: 20%;
     text-align: right;
@@ -250,7 +247,6 @@ footer img {
 .content-footer-bottom{
     display: flex;
     justify-content: space-between;
-
 }
 .logo-footer{
     padding: 5px;
@@ -265,5 +261,4 @@ footer img {
 .container-footer {
     width: 70%;
     padding: 5px 0;
-    
 }
