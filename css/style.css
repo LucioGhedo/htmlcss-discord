@@ -73,10 +73,10 @@ header {
 /* FINE UL LINK */
 
 .btn {
-    padding: 7px 9px;
+    padding: 10px 5px;
     background-color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .logo{
     width: 20%;
