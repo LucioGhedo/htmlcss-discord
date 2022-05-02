@@ -48,6 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 70%;
+    align-items: center;
 }
 .navbar div {
     padding: 15px 0;
@@ -57,14 +58,12 @@ header {
 /* UL LINK */
 .link{
     width: 70%;
-    text-align: center;
     list-style: none;
     display: flex;
     justify-content: center;
 }
 .link li {
     padding: 0 20px;
-    padding-top: 5px;
 }
 .link li a {
     text-decoration: none;
@@ -73,10 +72,11 @@ header {
 /* FINE UL LINK */
 
 .btn {
-    padding: 10px 5px;
+    padding: 10px 9px;
     background-color: white;
     border: none;
     border-radius: 30px;
+    display: inline-block;
 }
 .logo{
     width: 20%;
